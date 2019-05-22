@@ -935,7 +935,7 @@ const des = (msg, key, subkeys) => {
 const encode = (msg, key) => des(msg, key, keySchedule(key));
 const decode = (msg, key) => des(msg, key, keySchedule(key).reverse());
 
-// --- LAB 4 ---
+// --- LAB 5 ---
 
 // Размер блока
 const N = 4;
